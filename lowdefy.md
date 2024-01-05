@@ -1,17 +1,17 @@
 ---
-problem: What are the best performing products month on month?
-users:
+problem: What are the best performing products month on month for my business?
+users:          # not auth, these are 'modes' 
 - reporting     # people looking at overviews
-- management    # people creating new products and looking at details
+- admin    # people creating new products and looking at details
 contributors:
 - developer    # who made this originally and can be consulted
 documents:
-- transactions
-- products
-- customers
+- transactions  
+- products 
+- customers 
 stories: ## sequences of actions, documents, and results for users
-- view report dashboard with drill down
-- change in product details (CRUD)
+- reporter views report dashboard with drill down options and filters
+- admin logs change in product details (CRUD)
 - monitoring transactions
   - filtering by customer, day, or product
 ---
