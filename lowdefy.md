@@ -1,4 +1,4 @@
----
+```yaml
 problem: What are the best performing products month on month for my business?
 users:          # not auth, these are 'modes' 
 - reporting     # people looking at overviews
@@ -14,7 +14,8 @@ stories: ## sequences of actions, documents, and results for users
 - admin logs change in product details (CRUD)
 - monitoring transactions
   - filtering by customer, day, or product
----
+```
+
 # overview
 
 
